@@ -137,7 +137,7 @@ namespace PomodoroAdventures
 
         private void licenceToolStripMenuItem_Click(object sender, EventArgs e)
         {
-
+            System.Diagnostics.Process.Start("https://github.com/HDsettings/PomodoroLife");
         }
 
         private void alwaysOnTopToolStripMenuItem_Click(object sender, EventArgs e)
